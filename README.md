@@ -1,7 +1,7 @@
 this is my project of jobingteck ai & machine learning
 on FST Errachidia
 
-###project:
+# project:
 #retrieval augmented generation
 
     Search first. Generate second.
