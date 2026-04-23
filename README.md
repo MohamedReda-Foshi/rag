@@ -23,7 +23,7 @@ for web
 ``server.py``
 
 
-##llm problem
+## llm problem
 - cutoff problem (old data)
 - hallucination ()
 - Domain-specific expertise ()
@@ -55,6 +55,5 @@ explain
 retrieval: is semantic search is mean  searching my the meaning of the word in prompt
 augmented:
 
-##problem solution
-```source venv/bin/activate.fish                                     
-pip install langchain_community langchain_chroma pypdf```
+## problem solution
+```source venv/bin/activate.fish                                   pip install langchain_community langchain_chroma pypdf```
