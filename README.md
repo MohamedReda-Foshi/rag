@@ -11,8 +11,25 @@ llm: qwen2.5:3b  (local llm)
 langChain
 database:Chromabd
 flash:webserver
+## dependencies
 
-#quit start add your pdf file to `data/pdf` 
+### Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate.fish    # Fish shell
+### source venv/bin/activate        # Bash/Zsh
+
+### Install dependencies
+pip install langchain langchain_community langchain_chroma \
+            chromadb pypdf flask ollama
+
+
+### Pull models via Ollama
+ollama pull qwen2.5:3b
+ollama pull nomic-embed-text
+
+
+
+# quit start add your pdf file to `data/pdf` 
 then run
 ``python ingest.py``
 and this step we add file and store to database (vectordb) 
